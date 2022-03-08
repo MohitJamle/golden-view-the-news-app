@@ -69,6 +69,16 @@
     display: block;
     margin: 1vw 1.6vw;
   }
+   .btn {
+    padding: 1vw;
+    width: 20vw;
+    margin-top: 1.3vw;
+    font-size: 2vw;
+    background-color: #6000b9;
+    color: white;
+    border: 1px solid #350066;
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -91,5 +101,15 @@
     width: 80vw;
     display: block;
     margin: 1vw 1.6vw;
+  }
+   .btn {
+    padding: 2vw;
+    width: 50vw;
+    margin-top: 1.3vw;
+    font-size: 4vw;
+    background-color: #6000b9;
+    color: white;
+    border: 1px solid #350066;
+    cursor: pointer;
   }
 }
