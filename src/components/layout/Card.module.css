@@ -1,0 +1,95 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin: 5vw;
+}
+.card {
+  display: block;
+  width: 25vw;
+  height: auto;
+  border: 1rem solid white;
+  background-color: white;
+  margin: 0.6vw;
+  margin-bottom: 3vw;
+  text-align: center;
+}
+.btn {
+  padding: 0.5vw;
+  margin-top: 1.3vw;
+  font-size: 0.8vw;
+  background-color: #6000b9;
+  color: white;
+  border: 1px solid #350066;
+  cursor: pointer;
+}
+.btn a {
+  all: unset;
+}
+
+.btn:hover {
+  background-color: #8b39d8;
+}
+
+.card img {
+  width: 20vw;
+  display: block;
+  margin: 1vw 1.6vw;
+  border: 1px solid rgb(231, 231, 231);
+}
+.card h3 {
+  display: block;
+  padding: 5px;
+}
+.date {
+  display: block;
+  padding-bottom: 0.5rem;
+  color: red;
+  position: relative;
+  bottom: 0.8vw;
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 3vw;
+  }
+  .card {
+    display: block;
+    width: 45vw;
+    height: auto;
+    border: 1rem solid white;
+    background-color: white;
+    margin: 1vw;
+    margin-bottom: 3vw;
+    text-align: center;
+  }
+  .card img {
+    width: 37vw;
+    display: block;
+    margin: 1vw 1.6vw;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 4vw;
+  }
+  .card {
+    display: block;
+    width: 90vw;
+    height: auto;
+    border: 1rem solid white;
+    background-color: white;
+    margin: 1vw;
+    margin-bottom: 3vw;
+    text-align: center;
+  }
+  .card img {
+    width: 80vw;
+    display: block;
+    margin: 1vw 1.6vw;
+  }
+}
