@@ -16,13 +16,14 @@ function App() {
       <Nav />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/business" element={<Business />} />
+         <Route path="/golden-view-the-news-app/" element={<Home />} />
+        <Route path="/golden-view-the-news-app" element={<Home />} />
+        <Route path="/golden-view-the-news-app/business" element={<Business />} />
         <Route path="/entertainment" element={<Entertainment />} />
-        <Route path="/health" element={<Health />} />
-        <Route path="/science" element={<Science />} />
-        <Route path="/sports" element={<Sports />} />
-        <Route path="/technology" element={<Technology />} />
+        <Route path="/golden-view-the-news-app/health" element={<Health />} />
+        <Route path="/golden-view-the-news-app/science" element={<Science />} />
+        <Route path="/golden-view-the-news-app/sports" element={<Sports />} />
+        <Route path="/golden-view-the-news-app/technology" element={<Technology />} />
       </Routes>
     </div>
   );
