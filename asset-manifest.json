@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/golden-view-the-news-app/static/css/main.497c5e6a.chunk.css",
+    "main.js": "/golden-view-the-news-app/static/js/main.29c6a39d.chunk.js",
+    "main.js.map": "/golden-view-the-news-app/static/js/main.29c6a39d.chunk.js.map",
+    "runtime-main.js": "/golden-view-the-news-app/static/js/runtime-main.7925d88e.js",
+    "runtime-main.js.map": "/golden-view-the-news-app/static/js/runtime-main.7925d88e.js.map",
+    "static/js/2.e2958f22.chunk.js": "/golden-view-the-news-app/static/js/2.e2958f22.chunk.js",
+    "static/js/2.e2958f22.chunk.js.map": "/golden-view-the-news-app/static/js/2.e2958f22.chunk.js.map",
+    "index.html": "/golden-view-the-news-app/index.html",
+    "static/css/main.497c5e6a.chunk.css.map": "/golden-view-the-news-app/static/css/main.497c5e6a.chunk.css.map",
+    "static/js/2.e2958f22.chunk.js.LICENSE.txt": "/golden-view-the-news-app/static/js/2.e2958f22.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7925d88e.js",
+    "static/js/2.e2958f22.chunk.js",
+    "static/css/main.497c5e6a.chunk.css",
+    "static/js/main.29c6a39d.chunk.js"
+  ]
+}
