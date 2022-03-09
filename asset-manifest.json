@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/golden-view-the-news-app/static/css/main.55f1c696.chunk.css",
-    "main.js": "/golden-view-the-news-app/static/js/main.09a65570.chunk.js",
-    "main.js.map": "/golden-view-the-news-app/static/js/main.09a65570.chunk.js.map",
+    "main.js": "/golden-view-the-news-app/static/js/main.e77c5d69.chunk.js",
+    "main.js.map": "/golden-view-the-news-app/static/js/main.e77c5d69.chunk.js.map",
     "runtime-main.js": "/golden-view-the-news-app/static/js/runtime-main.7925d88e.js",
     "runtime-main.js.map": "/golden-view-the-news-app/static/js/runtime-main.7925d88e.js.map",
     "static/js/2.e2958f22.chunk.js": "/golden-view-the-news-app/static/js/2.e2958f22.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.7925d88e.js",
     "static/js/2.e2958f22.chunk.js",
     "static/css/main.55f1c696.chunk.css",
-    "static/js/main.09a65570.chunk.js"
+    "static/js/main.e77c5d69.chunk.js"
   ]
 }
