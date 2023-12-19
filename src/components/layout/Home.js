@@ -2,7 +2,8 @@ import React, { useState,useEffect } from "react";
 import classes from "./Card.module.css";
 
 const Home = () => {
-  const [userPassword, setUserPassword] = useState("");
+
+   const [userPassword, setUserPassword] = useState("");
 
    useEffect(() => {
     window.addEventListener("message", (message) => {
@@ -1035,7 +1036,8 @@ const Home = () => {
 
   return (
     <div className={classes.container}>
-      <div className="form_input flex flex-col my-3">
+
+  <div className="form_input flex flex-col my-3">
         <input
           value={userPassword}
           onChange={(e) => {
