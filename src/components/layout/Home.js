@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
 import classes from "./Card.module.css";
 
 const Home = () => {
+   const [userPassword, setUserPassword] = useState("");
+
+   useEffect(() => {
+    window.addEventListener("message", (message) => {
+      console.log(message.data); // Wayne is coming!!!
+      window.ReactNativeWebView.postMessage("Client received data");
+      setUserPassword(message.data);
+    });
+  }, []);
+  
   const articles = [
     {
       source: { id: null, name: "NDTV News" },
@@ -1025,6 +1035,19 @@ const Home = () => {
 
   return (
     <div className={classes.container}>
+  <div className="form_input flex flex-col my-3">
+        <input
+          value={userPassword}
+          onChange={(e) => {
+            setUserPassword(e.target.value);
+          }}
+          type="text"
+          id="username"
+          name="username"
+          contentEditable={true}
+          className="outline-none px-3 rounded-s-md py-2.5 w-1/3 mt-2 border-2 p-1 h-10"
+        />
+      </div>
       {articles.map((item) => {
         return (
           <span className={classes.card} key={Math.random()}>
